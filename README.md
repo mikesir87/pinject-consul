@@ -10,7 +10,7 @@ Add this to your `pom.xml` dependencies. That's it! Pinject will start using the
 <dependency>
   <groupId>io.mikesir87</groupId>
   <artifactId>pinject-consul</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
 </dependency>
 ```
 
