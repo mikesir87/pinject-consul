@@ -35,6 +35,9 @@ public class ConsulPropertyProvider implements PropertyResolver {
 
   @Override
   public void init() {
+    if (consulClient == null)
+      return;
+
     for (String root : treeRootPath.split(" "))
       populateWithRoot(root);
   }
